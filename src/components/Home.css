@@ -1,0 +1,53 @@
+.home {
+  text-align: center;
+  padding: 0; /* Remove padding to eliminate space around the home section */
+  background-color: gray;
+  min-height: 100vh; /* Ensure full height */
+  position: relative; /* Position context for child elements */
+  overflow: hidden; /* Hide any overflow */
+}
+
+.navbar {
+  background-color: #007bff; /* Navbar background color */
+  padding: 10px 20px; /* Padding for the navbar */
+  display: flex;
+  justify-content: center; /* Center links horizontally */
+  position: sticky; /* Keep the navbar at the top */
+  top: 0; /* Stick to the top of the page */
+  left: 0; /* Align to the left */
+  right: 0; /* Align to the right */
+  z-index: 1000; /* Ensure it stays above other content */
+  margin: 0; /* Ensure there's no margin */
+}
+
+.navbar-links {
+  display: flex;
+  gap: 30px; /* Spacing between links */
+}
+
+.navbar-item {
+  color: white;
+  text-decoration: none; /* Remove underline */
+  font-weight: bold; /* Bold font */
+  font-size: 1.2rem; /* Font size */
+  transition: color 0.3s; /* Smooth transition */
+}
+
+.navbar-item:hover {
+  color: #e6e6e6; /* Change color on hover */
+}
+
+.content {
+  margin-top: 20px; /* Spacing from the navbar */
+}
+
+.home h1 {
+  font-size: 2.5rem;
+  margin: 20px 0; /* Adjusted margin */
+  color: black;
+}
+
+.home p {
+  font-size: 1.2rem;
+  color: #555;
+}
